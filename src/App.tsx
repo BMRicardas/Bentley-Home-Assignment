@@ -1,7 +1,5 @@
-import './App.css';
+import { ImageGallery } from "./components/image/image-gallery";
 
-function App() {
-  return <div>Your code here</div>;
+export function App() {
+  return <ImageGallery />;
 }
-
-export default App;

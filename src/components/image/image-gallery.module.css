@@ -1,0 +1,31 @@
+.imageGalleryContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.imageGallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-block-end: 24px;
+}
+
+.loaderContainer {
+  position: sticky;
+  bottom: 50px;
+}
+
+.errorContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.error {
+  color: #b00020;
+  margin-block: 12px;
+  font-size: 1rem;
+}
